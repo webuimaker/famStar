@@ -1,3 +1,53 @@
-baseURL = ""
+baseURL = "https://www.famstar.in/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "best influencer marketing platform india"
+
+############################## navigation ###############################
+[menu]
+
+  
+  [[menu.main]]
+  name = "Home"
+  URL = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  URL = "/about/"
+  weight = 2
+
+  
+  [[menu.main]]
+  name = "Influencers"
+  URL = "/influencers/"
+  weight = 3
+
+  
+  [[menu.main]]
+  name = "Brands"
+  URL = "/brands/"
+  weight = 4
+
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "/contact/"
+  weight = 5
+
+
+
+    
+#   [[menu.main]]
+#   name = "Products"
+#   URL = "products"
+#   identifier = "products"
+#   weight = 1
+
+#     [[menu.main]]
+#     parent = "products"
+#     name = "Deep Learning Notebook"
+#     URL = "/products/deep-learning-notebook"
+
+[params]
+logo = "images/logo.png"
+

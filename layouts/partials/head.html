@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<title>{{ .Title }}</title>
+        {{ "<!-- mobile responsive meta -->" | safeHTML }}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+        <meta name="keywords" content="{{range .Params.keywords}}{{.}}{{end}}">
+        {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+        {{ hugo.Generator }}
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+	    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Top Menu Css -->
+	<link rel="stylesheet" type="text/css" href='{{ "css/bsnav.min.css" | absURL }}'>
+
+	<!-- Custom Css -->
+	<link href='{{ "boxicons/css/boxicons.min.css" | absURL }}' rel="stylesheet">	
+	<link href='{{ "css/style.css" | absURL }}' rel="stylesheet">
+	<link href='{{ "css/custommedia.css" | absURL }}' rel="stylesheet">
+
+    {{ "<!--Favicon-->" | safeHTML }}
+    <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+    <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
+</head>
+<body>
+

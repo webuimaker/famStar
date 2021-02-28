@@ -2,19 +2,76 @@
 /* CSS Document */
 
 @media only screen and (min-width:969px) and (max-width:1024px){
-	
+.bsnav-sticky-slide .navbar-nav .nav-link{padding:5px 8px;}
+.mainbanner, .influencebanner{background-size:50%;}
+#hero h4{font-size:18px;}
+#hero h1{font-size:30px;}
+#clientscroll li{padding:0px 5px;}
+.social::before{width:125px;}
+.social::after{width:125px;}
 }
 
 @media screen and (max-width:1023px) {
-
+.bsnav-sticky.bsnav-sticky-slide{background:transparent !important;}
+.social::before{width:125px;}
+.social::after{width:125px;}
+.heroimg{margin-top:35px; }
+#whychoose .grids{padding:0px 8px 20px;}
+.mainbanner, .influencebanner{background-size:50%;}
+.navbar-nav{background:#fff; padding:15px;}
+#whychoose .grids figure img{width:100%; margin-top:0;}
 }
 
 
 @media screen and (max-width: 767px) {
-  
+  .rowitems{flex-direction:column;}
+  .rowitems:nth-child(odd) .gridcontent{order: 2; text-align:center;}
+  .rowitems:nth-child(even) .gridcontent{order: 1; text-align:center; margin-top:25px;}
+
+  .mainbanner, .influencebanner{padding:0px 15px 55px 15px; background-size:50%;}
+  #hero{
+    padding-left: 0px;
+  }
+  #hero h1{font-size:19px;}
+  #hero h4{font-size:16px;}
+  #hero h3 {font-size:18px;}
+  .bannerleft{margin-top:280px;}
+  .bannerleft h3{font-size:16px;}
+  .followersection{
+    font-size: 16px;
+  }
+  .followersection img{
+    max-width: 50%;
+  }
+  h3{font-size:22px;}
+  .rowitems .gridcontent{margin-top:0;}
+  .rowitems .gridcontent h2{font-size:22px;}
+  .rowitems .gridcontent h5{font-size:16px; line-height:1.3;}
+  .social::before{display:none;}
+  .social::after{display:none;}
+  .social{margin-top:20px;}
+  #toolsection .rightcolcontent{padding:30px 15px;}
+  .footer-newsletter{margin-top:25px;}
+  .getimg-txt{position: absolute; top:37%; right:0%; left:-2%;}
+  .darkdes1{order: 2;}
+  .darkdes2{order: 1;}
+  #businessaccess h3{font-size:18px;}
+  .navbar-nav{margin-top:15px;}
+  .topblocktxt h3{font-size:22px;}
+  .followersection1 .fstxt2{left:170px;}
+  .banner-download{width:100%;}
+  #hero.influencebanner h2{font-size:20px;}
+  #influencertop h3{font-size:20px;}
+  .customerservicesection h1, .inspiresection h2{font-size:19px;}
+  .customerservicesection{text-align:center;}
+  .customerservicesection .get-arrow{margin-bottom:20px;}
+  .inspiresection .col-md-6.pl-5{padding-left:15px !important;}
+  .happycustomer .col-md-6.pl-0{padding-left:15px !important; margin-top:20px;}
 }
 
 
 @media screen and (max-width:479px){
-
+  .imgcontent{order: 1;}
+  .gridcontent{order: 2;}
+  .mainbanner, .influencebanner{padding:0px 15px 55px 15px; background-size:100%;}
 }

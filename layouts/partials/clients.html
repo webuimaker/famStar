@@ -1,0 +1,10 @@
+	<!-- Client Scroll Section -->
+	<div id="clientscroll" class="container-fluid">
+		<ul>
+			{{ range .Site.Data.clients.items }}
+				
+				<li><img src="{{.image | absURL }}" alt="{{.brand}}"></li>
+			{{end}}
+		</ul>
+	</div>
+	<!-- Client Scroll Section Ends -->

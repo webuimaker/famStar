@@ -1,0 +1,91 @@
+	
+{{if .IsHome }}
+	<!-- Hero Section -->
+	<div id="hero" class="mainbanner">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-lg-8">
+					<div class="bannerleft">
+						<h4>Best Influencer Marketing Platform | India</h4>
+						<h1>Influencer Marketing Powered <br> By Technology, &amp; Driven By Creativity</h1>
+						<h3 class="mt-3">Think Influence. <span>Think Famstar.</span> Get Started Today</h3>
+						<div class="bannerbtn mt-4"><a href="#" class="btn-arrow">Get Started</a></div>
+						<div class="followersection"><img src='{{"images/followerpic.png" | absURL}}' alt=""> 50K + Creators</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Hero Section -->
+	<div class="clearfix"></div>
+{{end}}
+{{if eq .Type "brand" }}
+	
+    <!-- Hero Section -->
+    <div id="hero" class="influencebanner">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="bannerleft">
+                        <h2>Branded Content<br> that converts</h2>
+                        <p>Receive a variety and volume of <span>eye-catching</span><br> branded content shot to your brief.</p>
+
+                        <div class="bannerbtn mt-4"><a href="#" class="btn-arrow">Request A Demo</a></div>
+						
+                        <div class="influencebannerbtm">
+							<div class="d-flex">
+								<div class="campaignleft">
+									<h2>79,270</h2>
+									<p>CREATORS HUNGRY TO CELEBRATE YOUR BRAND</p>
+								</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section -->
+	{{end}}
+
+	{{if eq .Type "influence" }}
+
+	
+    <!-- Hero Section -->
+    <div id="hero" class="influencebanner">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="bannerleft">
+                        <h2>CREATE CONTENT<br> HAVE FUN<br> GET PAID</h2>
+                        <p>It is A Long Established <span>Fact That A Reader</span> Will Be Distracted By<br> The Readable
+                            Content Of A Page When Looking At its Layout.</p>
+							
+                        <div class="banner-download">
+                            <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Download Now">
+                            </form>
+                        </div>
+						
+                        <div class="influencebannerbtm">
+							<div class="d-flex">
+								<div class="campaignleft">
+									<h2>16,580</h2>
+									<p>campaings from brands you love</p>
+								</div>
+								
+								<div class="campaignright">
+									<h2>$24M</h2>
+									<p>Paid out to Influencer worldwide</p>
+								</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="clearfix"></div>
+
+	{{end}}
