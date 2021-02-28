@@ -15,16 +15,23 @@ site_url: https://nervous-sinoussi-f2fa04.netlify.app/
 
 collections:
   - name: 'page'
-    label: 'page'
-    folder: 'content/page'
+    label: 'Pages'
+    identifier_field: PAge
+    folder: 'content'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{title}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - label: Keywords
+        name: keywords
+        widget: list
+        create: true
+        fields:
+          - {label: Enter keywords, name: keyText, widget: string}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
     label: 'Blog'
