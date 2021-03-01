@@ -16,22 +16,48 @@ site_url: https://nervous-sinoussi-f2fa04.netlify.app/
 collections:
   - name: 'page'
     label: 'Pages'
-    identifier_field: PAge
-    folder: 'content'
+    identifier_field: Page
+    folder: 'content/allpages'
     create: true
-    slug: '{{title}}'
+    slug: '{{title}}'    
+    relPermalink: "/{{title}}"
+    url: "/{{title}}"
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - label: Keywords
         name: keywords
         widget: list
+        collapsed: true
         create: true
         fields:
           - {label: Enter keywords, name: 'keyText', widget: 'string'}      
-      - { label: 'Type', name: 'type', widget: 'hidden', default: "page" }
+      - { label: 'Type', name: 'type', widget: 'hidden', default: "page" }      
+      - label: Hero
+        name: hero
+        widget: "object"
+        create: false
+        collapsed: true
+        fields:
+          - {label: Title, name: 'heroTitle', widget: 'string'}      
+          - {label: Description, name: 'heroDesc', widget: 'string'}      
+          - {label: Image, name: 'heroImage', widget: 'image'}      
+          - {label: Button Text, name: 'heroBtnText', widget: 'string'}      
+          - {label: Button Url, name: 'heroBtnUrl', widget: 'string'}          
+      - label: Hero Below Box
+        name: heroBelwoBox
+        widget: "list"
+        create: true
+        collapsed: true
+        max: 4
+        min: 2
+        fields:
+          - {label: Title, name: 'hBelwoBoxTitle', widget: 'string'}      
+          - {label: Description, name: 'hBelwoBoxDesc', widget: 'string'}      
+          - {label: Image, name: 'hBelwoBoxImage', widget: 'image'}      
+          - {label: Url, name: 'hBelwoBoxBtnUrl', widget: 'string'}      
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }  
   - name: 'blog'

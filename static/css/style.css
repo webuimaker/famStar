@@ -52,7 +52,7 @@ h3{font-size:40px; font-weight:600; text-transform:uppercase;}
 /**************** Top Menu Bar ****************/
 .bsnav-sticky.bsnav-sticky-slide{padding:20px 15px; background:none !important;}
 .bsnav-sticky.bsnav-sticky-slide a{color:#3d3d3d;}
-.bsnav-sticky-slide .navbar-nav .nav-link{color:#2C2B30 !important; font-size:15px; padding:5px 15px; margin:0px 0px 0 6px; text-transform:uppercase;}
+.bsnav-sticky-slide .navbar-nav .nav-link{color:#2C2B30 !important; font-size:16px; padding:5px 15px; margin:0px 0px 0 6px; text-transform:uppercase;}
 .navbar-nav .nav-item.active > .nav-link{color:#261465 !important; border-radius:6px; font-weight: 500;}
 .navbar-nav .nav-item:hover > .nav-link{color:#261465 !important; }
 .navbar-brand img{max-width:200px;}
