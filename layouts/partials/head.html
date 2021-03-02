@@ -8,13 +8,7 @@
         {{ "<!-- mobile responsive meta -->" | safeHTML }}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-        
-        {{if eq .Type "allpages"}}
-         <meta name="keywords" content="{{range .Params.keywordText}}{{.text}} {{end}}">
-        {{else}}
         <meta name="keywords" content="{{range .Params.keywords}}{{.}}{{end}}">
-        {{end}}
-
         {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
         {{ hugo.Generator }}
         <!-- Bootstrap CSS -->
@@ -36,8 +30,6 @@
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
     <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
 <body>

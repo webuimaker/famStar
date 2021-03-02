@@ -1,10 +1,10 @@
 ---
 title: Test  with hero
 description: "test with heo new "
+url: "/test-with-hero"
 keywords:
   - keyText: a-keywords,
   - keyText: b-keywor
-type: page
 hero:
   heroTitle: "HERO title here "
   heroDesc: Hero disc here
