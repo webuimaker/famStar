@@ -288,7 +288,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 #toolsection .toolscol h4{font-size:18px; font-weight:700; color:#261465;}
 #toolsection .toolscol p{font-size:15px; font-weight:100;}
 #toolsection .toolscol img{height:100%}
-#toolsection .rightcolcontent{padding:30px 20px 30px 0;}
+#toolsection .rightcolcontent{padding:60px 20px 60px 0;}
 #toolsection .rightcolcontent .getmore a{font-size:14px; padding:6px 15px;}
 
 #faqsection{padding:50px 0;}
@@ -508,7 +508,7 @@ display: inline-block; margin:0 15px 5px 0;}
 .carouselsection{margin-bottom:55px;}
 .owl-theme .owl-nav [class*="owl-"]{border-radius:0 !important;}
 .carouselsection .owl-theme .owl-nav{position:absolute; margin-top:0; width:100%; bottom:-20px;}
-.carouselsection .owl-prev{position:absolute; left:44%; background:url(../images/prev.png) no-repeat; width:50px; height:50px; text-indent:-9999px;}
+.carouselsection .owl-prev{position:absolute; left:47%; background:url(../images/prev.png) no-repeat; width:50px; height:50px; text-indent:-9999px;}
 .carouselsection .owl-next{position:absolute; right:44%; background:url(../images/next.png) no-repeat; width:50px; height:50px; text-indent:-9999px;}
 .carouselsection .owl-carousel .owl-nav.disabled{display:block;}
 .carouselsection .owl-carousel .owl-dots{display:none;}
@@ -517,3 +517,16 @@ display: inline-block; margin:0 15px 5px 0;}
 
 .carouselsection .imgsection{text-align:center;}
 .carouselsection .owl-carousel .owl-item img{width:auto; display:inline-block;}
+
+
+#toolsection .toolscol figure img{height:100%; object-fit:cover; width:100%;}
+#toolsection .toolscol figure{position:relative; height:100%; overflow:hidden;}
+#toolsection .toolscol figure::after{content: '';
+z-index: 2;
+background:rgb(241, 236, 255);
+width:100%;
+height:140%;
+position: absolute;
+top:11px;
+right: -83%;
+transform: rotate(12deg); box-shadow:inset 0 0 8px rgba(0, 0, 0, 0.3);}
