@@ -69,6 +69,9 @@
   .customerservicesection .get-arrow{margin-bottom:20px;}
   .inspiresection .col-md-6.pl-5{padding-left:15px !important;}
   .happycustomer .col-md-6.pl-0{padding-left:15px !important; margin-top:20px;}
+
+  .carouselsection .owl-theme .owl-nav{display:none !important;}
+  .carouselsection .owl-carousel .owl-dots{display:block; margin-top:20px;}
 }
 
 
