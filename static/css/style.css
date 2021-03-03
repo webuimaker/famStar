@@ -172,7 +172,7 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
   flex-direction: column
 }
 .rowitems .imgcontent img{}
-.rowitems .gridcontent h2{color:#2C2B30; font-size: 35px; line-height: 30px;}
+.rowitems .gridcontent h2{color:#000; font-size: 35px; line-height: 30px;}
 .rowitems .gridcontent h5{color:#57419d; font-size:20px; line-height: 30px; font-weight:400; }
 .rowitems .gridcontent p{line-height:25px; font-size:16px; font-weight:100;}
 
