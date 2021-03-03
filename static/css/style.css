@@ -231,7 +231,7 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 #creativeservices{padding:50px 0;}
 #creativeservices h4{font-size:22px; color:#2c2b30; margin-top:5px;}
 #creativeservices h3{color:#261465;}
-.creativecol{text-align:center; border:10px solid #f7f5ff; border-left:0; border-top:0; padding:0 15px 15px;}
+.creativecol{text-align:center; border:10px solid #f7f5ff; border-left:0; border-top:0; padding:0 15px 15px; transition: 0.5s;}
 .creativecol:hover{background: #ff8f99; color: #fff !important;}
 .creativecol:hover h4{color: #fff !important;}
 .creativecol h4{color:#2c2b30; font-size:18px; font-weight:700;}
