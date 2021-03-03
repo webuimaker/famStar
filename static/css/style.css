@@ -29,6 +29,12 @@ ul { list-style: none; }
 .mTop25 { margin-top: 25px; }
 h3{font-size:40px; font-weight:600; text-transform:uppercase;}
 h2{font-size: 34px !important; line-height: 46px !important;}
+.section{
+  padding: 80px 0px !important;
+}
+.section-title{
+  margin-bottom: 50px  !important;
+}
 
 
 .btn-arrow{
@@ -147,15 +153,20 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 .topblockimg img{margin-left: -40px; max-width: 108%;}
 .topblockdesc .w-100{margin-bottom:20px;}
 
-.rowitems{display: flex; flex-direction: row;}
-.rowitems:nth-child(odd) .imgcontent{order: 1;}
-.rowitems:nth-child(even) .imgcontent{order: 2;}
+.rowitems{display: flex; flex-direction: row; margin-top: 50px;}
+.rowitems:first-child{margin-top: 0px;}
+.rowitems:nth-child(odd) .imgcontent{order: 2;}
+.rowitems:nth-child(even) .imgcontent{order: 1;}
 
-.rowitems:nth-child(odd) .gridcontent{order: 2; text-align:right;}
-.rowitems:nth-child(even) .gridcontent{order: 1; text-align:left;}
+.rowitems:nth-child(odd) .gridcontent{order: 1; text-align:left;}
+.rowitems:nth-child(even) .gridcontent{order: 2; text-align:right;}
 
-.rowitems .gridcontent{margin-top: 120px;}
-.rowitems .imgcontent img{margin-top: 54px;}
+.rowitems .gridcontent{margin-top: 120px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column
+}
+.rowitems .imgcontent img{}
 .rowitems .gridcontent h2{color:#000; font-size: 35px; line-height: 30px;}
 .rowitems .gridcontent h5{color:#57419d; font-size:20px; line-height: 30px; font-weight:400; }
 .rowitems .gridcontent p{line-height:25px; font-size:16px; font-weight:100;}

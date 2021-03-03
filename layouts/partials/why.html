@@ -1,39 +1,36 @@
 
 	<!-- Home Grid Section -->
-	<div id="gridsection" class="homegrid">
+	<div id="gridsection" class="homegrid section">
 		<div class="container">
-			<div class="row">
+			<div class="row section-title">
 				<div class="col-md-12 text-center topblocktxt">
-					<span class="blocktxt">Why Choose Us</span>
-					<h3>Why You'll Adore Us</h3>
-					<p>We encountered how difficult influencer marketing can be without the right tools. So, we created
-						Famstar to take care of this problem. And now, we are leading the way for the creators and
-						brands alike.</p>
+					{{with .Params.whySection.tagline}}
+					<span class="blocktxt">{{.}}</span>
+					{{end}}
+					<h3>{{.Params.whySection.title}}</h3>
+					{{with .Params.whySection.description}}
+						<p>{{.}}</p>
+					{{end}}
 				</div>
 			</div>
+		</div>
 
-			<div class="rowitems col-lg-12 col-md-12">
-				<div class="col-lg-5 col-md-5 imgcontent"><img src="{{.Site.BaseURL}}/images/img1.png" alt=""></div>
-				<div class="col-lg-7 col-md-7 gridcontent">
-					<h2>Discover</h2>
-					<h5>Find best influencers for your brand</h5>
-					<p>Explore our broad network of influencers and select the ones you need. Maximize the influence of creators over their followers. Influencer discovery will help you in finding the perfect match by using various filters and keywords based on your preferred criteria of selection like age, location, city, category of influencer, and much more.</p>
-					<div class="bannerbtn mt-4"><a href="#" class="btn-arrow transparentbtn">Know More</a></div>
+		<div class="container-fluid">
+			{{range .Params.whySection.lists}}
+				<div class="rowitems">
+					<div class="col-lg-6 col-md-6 imgcontent"><img src="{{.Site.BaseURL}}/{{.image}}" alt=""></div>
+					<div class="col-lg-6 col-md-6 gridcontent">
+						<h2>{{.title}}</h2>
+						<h5>{{.subTitle}}</h5>
+						<p>{{.info}}</p>
+						<div class="bannerbtn mt-4"><a href="{{.btnUrl}}" class="btn-arrow transparentbtn">{{.btnText}}</a></div>
+					</div>
 				</div>
-			</div>
+			{{end}}
 
-			<div class="rowitems col-lg-12 col-md-12 align-items-center">
-				<div class="col-lg-6 col-md-6 imgcontent"><img src="{{.Site.BaseURL}}/images/img2.png" alt="" style="max-width: 100%;">
-				</div>
-				<div class="col-lg-6 col-md-6 gridcontent">
-					<h2>Organize</h2>
-					<h5>Create your campaign as per your requirements</h5>
-					<p>Get everything you need to manage influencer relationships, contact information, campaign bids, and campaign data. Use our built-in automation to ensure time & money efficiency.</p>
-					<div class="bannerbtn mt-4"><a href="#" class="btn-arrow transparentbtn">Know More</a></div>
-				</div>
-			</div>
+			
 
-			<div class="rowitems col-lg-12 col-md-12 align-items-center">
+			<div class="rowitems col-lg-12 col-md-12 align-items-center d-none">
 				<div class="col-lg-6 col-md-6 imgcontent"><img src="{{.Site.BaseURL}}/images/img3.png" alt="" style="max-width: 110%;">
 				</div>
 				<div class="col-lg-6 col-md-6 gridcontent">

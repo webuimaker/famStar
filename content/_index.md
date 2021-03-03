@@ -24,5 +24,28 @@ hero:
   - "images/influencers-4.png"
   - "images/influencers-5.png"
   text: "50K + Creators"
+whySection:
+ tagline: Why Choose Us
+ title: WHY YOU'LL ADORE US
+ description: "We encountered how difficult influencer marketing can be without the right tools. So, we created Famstar to take care of this problem. And now, we are leading the way for the creators and brands alike."
+ lists:
+ - title: "Discover"
+   subTitle: "Find best influencers for your brand"
+   info: "Explore our broad network of influencers and select the ones you need. Maximize the influence of creators over their followers. Influencer discovery will help you in finding the perfect match by using various filters and keywords based on your preferred criteria of selection like age, location, city, category of influencer, and much more."
+   image: "images/img1.png"
+   btnText: Know More 
+   btnUrl: "#"
+ - title: "Organize"
+   subTitle: "Create your campaign as per your requirements"
+   info: "Get everything you need to manage influencer relationships, contact information, campaign bids, and campaign data. Use our built-in automation to ensure time & money efficiency."
+   image: "images/img2.png"
+   btnText: Know More 
+   btnUrl: "#"
+ - title: "Discover"
+   subTitle: "Find best influencers for your brand"
+   info: "Explore our broad network of influencers and select the ones you need. Maximize the influence of creators over their followers. Influencer discovery will help you in finding the perfect match by using various filters and keywords based on your preferred criteria of selection like age, location, city, category of influencer, and much more."
+   image: "images/img1.png"
+   btnText: Know More 
+   btnUrl: "#"
 ---
 
