@@ -139,7 +139,7 @@ display: inline-block; margin:0 15px 5px 0;}
 .followersection{margin-top:80px; font-size:24px; color:#7C778A; font-weight: 500;}
 
 #clientscroll{margin-bottom:40px; margin-top: 40px;}
-#clientscroll ul{margin:0; padding:0; }
+#clientscroll ul{margin:0; padding:0; text-align: center;}
 #clientscroll li{display:inline-block; margin-left: 100px;}
 #clientscroll li:first-child{ margin-left: 0px;}
 #clientscroll li img{max-width: 80px;}
