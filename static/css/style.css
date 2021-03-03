@@ -149,7 +149,7 @@ display: inline-block; margin:0 15px 5px 0;}
 span.blocktxt{display:inline-block; background:#cdfce5; border-radius:6px; padding:4px 8px; font-size:16px; color:#57419d; margin-bottom:20px;}
 .topblocktxt{margin-bottom:30px;}
 .topblocktxt p{padding:0px 6%; font-size: 18px; line-height: 28px;}
-.topblocktxt h3{font-size: 34px; line-height: 46px; color:#000;}
+.topblocktxt h3{font-size: 34px; line-height: 46px; color:#2C2B30;}
 
 span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padding:4px 8px; font-size:16px; color:#57419d; margin-bottom:20px;}
 .topblocktxt1 h3{color: #2c2b30 !important;}
@@ -166,13 +166,13 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 .rowitems:nth-child(odd) .gridcontent{order: 1; text-align:left;}
 .rowitems:nth-child(even) .gridcontent{order: 2; text-align:right;}
 
-.rowitems .gridcontent{margin-top: 120px;
+.rowitems .gridcontent{
   justify-content: center;
   display: flex;
   flex-direction: column
 }
 .rowitems .imgcontent img{}
-.rowitems .gridcontent h2{color:#000; font-size: 35px; line-height: 30px;}
+.rowitems .gridcontent h2{color:#2C2B30; font-size: 35px; line-height: 30px;}
 .rowitems .gridcontent h5{color:#57419d; font-size:20px; line-height: 30px; font-weight:400; }
 .rowitems .gridcontent p{line-height:25px; font-size:16px; font-weight:100;}
 
@@ -196,7 +196,7 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 
 
 #keysection{padding:50px 0;}
-#keysection h3{color:#000;}
+#keysection h3{color:#2C2B30;}
 #keysection h5{font-size:20px; line-height: 30px; font-weight:400; color:#57419d; position:relative;}
 #keysection h5::before{content: ''; width: 30px; height: 2px; background: #ff8f99; display: inline-block; margin:0 15px 5px 0;}
 #keysection p{font-weight:100; line-height:1.5;}
@@ -205,7 +205,7 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 
 
 #whychoose{padding:50px 0;}
-#whychoose h3{color:#000;}
+#whychoose h3{color:#2C2B30;}
 #whychoose h6{font-size:16px; font-weight:100; color:#2c2b30; margin-bottom:0;}
 #whychoose h4{font-size:22px; font-weight:600; color:#261465;}
 #whychoose .grids{padding:0px 8px 15px;}
