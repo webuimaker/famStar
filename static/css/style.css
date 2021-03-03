@@ -100,7 +100,7 @@ display: inline-block; margin:0 15px 5px 0;}
 #hero p{color:#050505; font-size:22px; line-height:1.3;}
 
 #hero .bannerbtn a{display:inline-block; background:#ff8f99; color:#fff !important; font-size:16px; padding:0.65em 2em; border-radius:6px; font-weight:400; margin:0px 0 0 0;}
-#hero .bannerbtn a:hover{background:#f86572;}
+#hero .bannerbtn a:hover{background:#FF8F99;}
 #hero .bannerbtn1 a{display:inline-block; background:#ff8f99; color:#fff !important; font-size:24px; padding:0.65em 2em; border-radius:6px; margin:0px 0 0 0;}
 #hero .bannerbtn1 a:hover{background:#f86572;}
 #hero.influencebanner h2{font-family: 'Poppins', sans-serif; font-size:50px; color:#2c2b30; font-weight:600; text-transform:uppercase;}
