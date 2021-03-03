@@ -8,4 +8,21 @@ keywords:
 - top influencer marketing platforms india,
 - best influencer marketing agencies,
 - top influencer marketing campaigns
+hero:
+ bgImage: 
+ image:
+ tagLine: "Best Influencer Marketing Platform | India"
+ title: "Influencer Marketing Powered <br> By Technology, &amp; Driven <br> By Creativity"
+ subTitle: "Think Influence. <span>Think Famstar.</span> Get Started Today"
+ btnText: "Get Started"
+ btnUrl: "#"
+ follow: 
+  images:
+  - "images/influencers-1.png"
+  - "images/influencers-2.png"
+  - "images/influencers-3.png"
+  - "images/influencers-4.png"
+  - "images/influencers-5.png"
+  text: "50K + Creators"
 ---
+

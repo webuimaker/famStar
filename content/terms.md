@@ -1,7 +1,13 @@
 ---
 title: "TERMS OF SERVICE"
-draft: false
 description : "TERMS OF SERVICE"
+keywords:
+- best influencer marketing platform, 
+- best influencer marketing software,
+- top influencer marketing platforms india,
+- best influencer marketing agencies,
+- top influencer marketing campaigns
+draft: false
 ---
 *Last updated: 12/01/2020*
 

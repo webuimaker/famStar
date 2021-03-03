@@ -55,9 +55,9 @@ h2{font-size: 34px !important; line-height: 46px !important;}
 /**************** Top Menu Bar ****************/
 .bsnav-sticky.bsnav-sticky-slide{padding:12px 15px; background:none !important;}
 .bsnav-sticky.bsnav-sticky-slide a{color:#3d3d3d;}
-.bsnav-sticky-slide .navbar-nav .nav-link{color:#2C2B30 !important; font-size:16px !important; font-weight: 500; padding:5px 15px; margin:0px 0px 0 6px; text-transform:uppercase;}
-.navbar-nav .nav-item.active > .nav-link{color:#261465 !important; border-radius:6px; font-weight: 500;}
-.navbar-nav .nav-item:hover > .nav-link{color:#261465 !important; }
+.bsnav-sticky-slide .navbar-nav .nav-link{color:#2C2B30; font-size:16px; font-weight: 500; padding:5px 15px; margin:0px 0px 0 6px; text-transform:uppercase;}
+.navbar-nav .nav-item.active > .nav-link, .navbar-nav .nav-item:hover > .nav-link{color:#261465;   }
+.navbar-nav .nav-item.active > .nav-link{font-weight: 600;}
 .navbar-brand img{max-width:150px;}
 
 .bsnav-sticky.bsnav-sticky-slide.sticked.in{background:#fff !important; box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.05), inset 0 -0.5px 0 0 rgba(0, 0, 0, 0.1); -moz-box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.05), inset 0 -0.5px 0 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.05), inset 0 -0.5px 0 0 rgba(0, 0, 0, 0.1);}
@@ -73,7 +73,7 @@ h2{font-size: 34px !important; line-height: 46px !important;}
 /**************** Banner Section ****************/
 .mainbanner{background:url(../images/hero-banner.png) no-repeat right top; background-size:contain;}
 .influencebanner{background:url(../images/hero-banner1.png) no-repeat right top; background-size:contain;}
-#hero{height:100%; height:auto; padding:0px 0px 55px 35px; width:100%; float:left;}
+#hero{height:100%; height:auto; padding:0px 0px 55px 15px; width:100%; float:left;}
 #hero h4{color:#2C2B30; margin-top:10px; text-transform:uppercase; font-size:34px; font-weight: 600; line-height: 46px; }
 #hero h3{color:#130f2d; font-size: 24px;}
 #hero h3 span{color:#ff8f99;}
@@ -93,6 +93,23 @@ display: inline-block; margin:0 15px 5px 0;}
 #hero.influencebanner h2{font-family: 'Poppins', sans-serif; font-size:50px; color:#2c2b30; font-weight:600; text-transform:uppercase;}
 #hero.influencebanner p{font-size:18px; color:#7c778a;}
 
+.influencers-hero{
+  margin: 0px;
+  padding: 0px;
+   display: inline-block;
+}
+.influencers-hero li {
+  margin-left: -30px;
+  display: inline;
+}
+.influencers-hero li:first-child {
+  margin-left: 0px;
+}
+
+.influencers-hero li img{
+  max-width: 80px;
+}
+
 .bannerleft{margin-top:200px; position:relative; z-index: 1;}
 .fsimg{width:200px !important;}
 .bannerleft h3{font-size:24px; text-transform:none; font-weight:400; color:#7C778A !important;}
@@ -111,14 +128,14 @@ display: inline-block; margin:0 15px 5px 0;}
 #clientscroll{margin-bottom:40px; margin-top: 40px;}
 #clientscroll ul{margin:0; padding:0; text-align:center;}
 #clientscroll li{display:inline-block; padding:0px 35px;}
-#clientscroll li img{max-width: 60px;}
+#clientscroll li img{max-width: 80px;}
 
 #gridsection{background:#f1ecff; padding:50px 0;}
 
 span.blocktxt{display:inline-block; background:#cdfce5; border-radius:6px; padding:4px 8px; font-size:16px; color:#57419d; margin-bottom:20px;}
 .topblocktxt{margin-bottom:30px;}
 .topblocktxt p{padding:0px 6%; font-size: 18px; line-height: 28px;}
-.topblocktxt h3{font-size: 50px; color:#000;}
+.topblocktxt h3{font-size: 34px; line-height: 46px; color:#000;}
 
 span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padding:4px 8px; font-size:16px; color:#57419d; margin-bottom:20px;}
 .topblocktxt1 h3{color: #2c2b30 !important;}

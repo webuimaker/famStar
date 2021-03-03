@@ -6,11 +6,28 @@
 			<div class="row align-items-center">
 				<div class="col-lg-8">
 					<div class="bannerleft">
-						<h1>Best Influencer Marketing Platform | India</h1>
-						<h4>Influencer Marketing Powered <br> By Technology, &amp; Driven <br> By Creativity</h4>
-						<h3 class="mt-3">Think Influence. <span>Think Famstar.</span> Get Started Today</h3>
-						<div class="bannerbtn mt-4"><a href="#" class="btn-arrow">Get Started</a></div>
-						<div class="followersection"><img src='{{"images/followerpic.png" | absURL}}' alt=""> 50K + Creators</div>
+						{{ with .Params.hero.tagLine }}<h1>{{.}}</h1> {{end}}
+						{{ with .Params.hero.title }}<h4>{{. | safeHTML}}</h4>{{end}}
+						{{ with .Params.hero.subTitle }}<h3 class="mt-3">{{.| safeHTML}}</h3>{{end}}
+						{{ if .Params.hero.btnText }}
+							<div class="bannerbtn mt-4"><a href="{{.Params.hero.btnUrl}}" class="btn-arrow">{{.Params.hero.btnText}}</a></div>
+						{{end}}
+						{{ if .Params.hero.follow.text }}						
+							<div class="followersection">
+								<ul class="influencers-hero">
+									{{ range .Params.hero.follow.Images }}
+										<li>										
+											<img src="{{ .  }}" alt="influencers">
+										</li>
+									{{ end }}
+								</ul>
+								
+
+								{{ .Params.hero.follow.text }}
+							</div>
+						{{ end }}
+
+						
 					</div>
 				</div>
 			</div>

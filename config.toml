@@ -35,18 +35,17 @@ title = "best influencer marketing platform india"
   weight = 5
 
 
+  [[menu.main]]
+  name = "Language"
+  URL = ""
+  weight = 6
 
-    
-#   [[menu.main]]
-#   name = "Products"
-#   URL = "products"
-#   identifier = "products"
-#   weight = 1
+  [[menu.main]]
+  name = "login"
+  URL = ""
+  weight = 7
 
-#     [[menu.main]]
-#     parent = "products"
-#     name = "Deep Learning Notebook"
-#     URL = "/products/deep-learning-notebook"
+
 
 [params]
 logo = "images/logo.png"

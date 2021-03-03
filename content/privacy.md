@@ -1,7 +1,13 @@
 ---
 title: "PRIVACY POLICY"
-draft: false
 description : "PRIVACY POLICY"
+keywords:
+- best influencer marketing platform, 
+- best influencer marketing software,
+- top influencer marketing platforms india,
+- best influencer marketing agencies,
+- top influencer marketing campaigns
+draft: false
 ---
 *Effective date: 11/01/2020*
 

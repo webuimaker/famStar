@@ -32,13 +32,15 @@
   #hero{
     padding-left: 0px;
   }
-  #hero h1{font-size:19px;}
-  #hero h4{font-size:16px;}
+  #hero h1{font-size:19px; padding-top: 20px;}
+  #hero h4{font-size:19px; line-height: 1.7rem;}
   #hero h3 {font-size:18px;}
   .bannerleft{margin-top:280px;}
   .bannerleft h3{font-size:16px;}
   .followersection{
     font-size: 16px;
+    margin-top: 40px;
+    text-align: center;
   }
   .followersection img{
     max-width: 50%;
