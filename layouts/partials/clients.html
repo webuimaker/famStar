@@ -1,10 +1,17 @@
 	<!-- Client Scroll Section -->
 	<div id="clientscroll" class="container-fluid">
-		<ul>
-			{{ range .Site.Data.clients.items }}
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-12">
+					<ul class="client-logo"> 
+						{{ range .Site.Data.clients.items }}
+							
+							<li><img src="{{.image | absURL }}" alt="{{.brand}}"></li>
+						{{end}}
+					</ul>
+				</div>
 				
-				<li><img src="{{.image | absURL }}" alt="{{.brand}}"></li>
-			{{end}}
-		</ul>
+			</div>
+		</div>
 	</div>
 	<!-- Client Scroll Section Ends -->

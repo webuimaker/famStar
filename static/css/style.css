@@ -70,6 +70,8 @@ h2{font-size: 34px !important; line-height: 46px !important;}
 .loginlast a:hover{background:#f86572;}
 .bsnav-sticky-slide .navbar-nav .loginlast a.nav-link{color:#ffffff !important;}
 
+
+
 /**************** Banner Section ****************/
 .mainbanner{background:url(../images/hero-banner.png) no-repeat right top; background-size:contain;}
 .influencebanner{background:url(../images/hero-banner1.png) no-repeat right top; background-size:contain;}
@@ -126,8 +128,9 @@ display: inline-block; margin:0 15px 5px 0;}
 .followersection{margin-top:80px; font-size:24px; color:#7C778A; font-weight: 500;}
 
 #clientscroll{margin-bottom:40px; margin-top: 40px;}
-#clientscroll ul{margin:0; padding:0; text-align:center;}
-#clientscroll li{display:inline-block; padding:0px 35px;}
+#clientscroll ul{margin:0; padding:0; }
+#clientscroll li{display:inline-block; margin-left: 100px;}
+#clientscroll li:first-child{ margin-left: 0px;}
 #clientscroll li img{max-width: 80px;}
 
 #gridsection{background:#f1ecff; padding:50px 0;}
