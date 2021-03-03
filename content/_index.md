@@ -41,11 +41,12 @@ whySection:
    image: "images/img2.png"
    btnText: Know More 
    btnUrl: "#"
- - title: "Discover"
-   subTitle: "Find best influencers for your brand"
-   info: "Explore our broad network of influencers and select the ones you need. Maximize the influence of creators over their followers. Influencer discovery will help you in finding the perfect match by using various filters and keywords based on your preferred criteria of selection like age, location, city, category of influencer, and much more."
-   image: "images/img1.png"
+ - title: "Calculate"
+   subTitle: "Intuitive Analytics for getting the job done"
+   info: "With the help of powerful analytics, measure everything from reach, views, social value, conversion to ROI. We have everything to measure the core of your marketing efforts."
+   image: "images/img3.png"
    btnText: Know More 
    btnUrl: "#"
 ---
+
 

@@ -29,6 +29,11 @@ ul { list-style: none; }
 .mTop25 { margin-top: 25px; }
 h3{font-size:40px; font-weight:600; text-transform:uppercase;}
 h2{font-size: 34px !important; line-height: 46px !important;}
+h5{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
 .section{
   padding: 80px 0px !important;
 }
