@@ -61,7 +61,7 @@ h5{
 .transparentbtn{background:none !important; border:1px solid #261465; border-radius:8px; color:#261465 !important;}
 .transparentbtn:hover{background:#f86572 !important; color:#fff !important; border:1px solid transparent;}
 .transparentbtn1{background:none !important; border:1px solid #261465; border-radius:4px; color:#261465 !important;}
-.transparentbtn1:hover{background:#261465 !important; color:#f86572 !important; border:1px solid transparent;}
+.transparentbtn1:hover{background:#261465 !important; color:#ff8f99 !important; border:1px solid transparent;}
 
 /**************** Top Menu Bar ****************/
 .bsnav-sticky.bsnav-sticky-slide{padding:12px 15px; background:none !important;}
