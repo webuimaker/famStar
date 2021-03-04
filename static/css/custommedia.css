@@ -75,24 +75,15 @@
   .rowitems .imgcontent img {margin-bottom: 15px;}
   #keysection .keybottom img{margin-top: 25px;}
   .creativecol{margin-top: 15px;}
-  .footer h2 {
-    font-size: 24px !important;
-    color: #fff;
-    font-weight: 600;
-    margin-top: 12px;
-    margin-bottom: 0;
-}
-.imagetext p{
-  font-size: 12px !important;
-    line-height: 13px !important;
-}
-.imagetext h1{
-  font-size: 24px;
-  margin-bottom: 0;
-}
-#bottombg .imagetext{
-  top: 40%;
-}
+  .footer h2 {font-size: 24px !important;color: #fff;font-weight: 600;margin-top: 12px;margin-bottom: 0;}
+  .imagetext p{font-size: 12px !important; line-height: 13px !important;}
+  .imagetext h1{font-size: 24px;margin-bottom: 0;}
+  #bottombg .imagetext{top: 40%;}
+  .client-logo{display: flex; flex-wrap: wrap;}
+  .client-logo li{flex: 50%; width: 50%;}
+  #clientscroll li{margin: 0; margin-top: 10px;}
+  .creativecol{border-left: 10px solid #f7f5ff; border-top: 10px solid #f7f5ff;}
+  .topblocktxt h3 {line-height: 24px;}
 }
 
 
