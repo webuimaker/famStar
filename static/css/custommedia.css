@@ -72,6 +72,16 @@
 
   .carouselsection .owl-theme .owl-nav{display:none !important;}
   .carouselsection .owl-carousel .owl-dots{display:block; margin-top:20px;}
+  .rowitems .imgcontent img {margin-bottom: 15px;}
+  #keysection .keybottom img{margin-top: 25px;}
+  .creativecol{margin-top: 15px;}
+  .footer h2 {
+    font-size: 24px !important;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
 }
 
 

@@ -18,7 +18,9 @@
 		<div class="container-fluid">
 			{{range .Params.whySection.lists}}
 				<div class="rowitems">
-					<div class="col-lg-6 col-md-6 imgcontent"><img src="{{.Site.BaseURL}}/{{.image}}" alt=""></div>
+					<div class="col-lg-6 col-md-6 imgcontent">
+						<img src="{{.Site.BaseURL}}/{{.image}}" alt="">
+					</div>
 					<div class="col-lg-6 col-md-6 gridcontent">
 						<h2>{{.title}}</h2>
 						<h5>{{.subTitle}}</h5>
