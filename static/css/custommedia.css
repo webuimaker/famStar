@@ -62,7 +62,7 @@
   .topblocktxt h3{font-size:22px;}
   .followersection1 .fstxt2{left:170px;}
   .banner-download{width:100%;}
-  #hero.influencebanner h2{font-size:20px;}
+  #hero.influencebanner h2{font-size:20px !important; line-height: 21px !important;}
   #influencertop h3{font-size:20px;}
   .customerservicesection h1, .inspiresection h2{font-size:19px;}
   .customerservicesection{text-align:center;}
