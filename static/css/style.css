@@ -34,6 +34,11 @@ h5{
   line-height: 30px;
   font-weight: 400;
 }
+
+.container{
+  max-width: 1250px !important;
+}
+
 .section{
   padding: 80px 0px !important;
 }
@@ -394,7 +399,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 .social::before{content: ''; width:425px; height: 2px; background: #fff; display: inline-block; margin:0 15px 5px 0;}
 .social::after{content: ''; width:425px; height: 2px; background: #fff; display: inline-block; margin:0 15px 5px 0;}
 
-.footer h2{font-size:22px; color:#fff; font-weight:600; margin-bottom:15px;}
+.footer h2{font-size:22px !important; color:#fff; font-weight:600; margin-bottom:15px;}
 .footer ul{margin:0; padding:0;}
 .footer ul li{margin-bottom:8px;}
 .footer ul li a{color:#fff; font-size:100; font-size:16px;}
@@ -443,7 +448,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 .campaignsection p{font-size:14px; color:#7c778a;}
 
 .customerservicesection{padding:50px 0; background:#2c2b30;}
-.customerservicesection h1{color:#fff; text-transform:uppercase;}
+.customerservicesection h1{color:#fff; text-transform:uppercase; font-size: 34px;}
 .customerservicesection h4{font-size:24px; color:#fff; font-weight:700; margin:15px 0;}
 .customerservicesection p{font-size:14px; color:#fff;}
 .inspiresection{background:#f1ecff; padding:30px 0;}
@@ -462,12 +467,12 @@ display: inline-block; margin:0 15px 5px 0;}
 .happycustomer p{font-size:12px; color:#7c778a;}
 
 #whyinfluence{padding:50px 0; background:url(../images/whyinfluencebg.jpg) no-repeat; background-size:cover;}
-#whyinfluence h3{color:#2c2b30; font-size:50px;}
+#whyinfluence h3{color:#2c2b30; font-size:34px !important;}
 #whyinfluence p{color:#7c778a; font-size:16px; line-height:1.5;}
 #whyinfluence .store a img{height: 50px;}
 
 #influencertop{padding:50px 0;}
-#influencertop h3{color:#2c2b30; font-size:50px;}
+#influencertop h3{color:#2c2b30; font-size:34px;}
 #influencertop p{font-size:18px; color:#7c778a; line-height:1.5;}
 #influencertop figure{margin-top:25px;}
 
