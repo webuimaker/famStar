@@ -147,7 +147,7 @@ display: inline-block; margin:0 15px 5px 0;}
 #clientscroll ul{margin:0; padding:0; text-align: center;}
 #clientscroll li{display:inline-block; margin-left: 100px;}
 #clientscroll li:first-child{ margin-left: 0px;}
-#clientscroll li img{max-width: 80px;}
+#clientscroll li img{max-width: 60px;}
 
 #gridsection{background:#f1ecff; padding:50px 0;}
 
@@ -330,8 +330,8 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 #subscribesection{background:#f1ecff; padding:40px 0;}
 #subscribesection .custom-control-inline{margin-right:15px;}
 .custom-control-input:checked ~ .custom-control-label::before{background-color:#261465; border-color:#261465;}
-.footer-newsletter form{background: #fff; padding: 6px 10px; position: relative; border-radius:6px; text-align: left; border: 1px solid #2c2b30;}
-.footer-newsletter form input[type="email"] {border: 0; padding: 4px 8px; width: calc(100% - 100px); outline:none;}
+.footer-newsletter form{background: transparent; padding: 6px 10px; position: relative; border-radius:6px; text-align: left; border: 1px solid #2c2b30;}
+.footer-newsletter form input[type="email"] {background: transparent; border: 0; padding: 4px 8px; width: calc(100% - 100px); outline:none;}
 .footer-newsletter form input[type="submit"] {
     position: absolute;
     top: 0;
@@ -406,7 +406,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 .footer p{color:#fff; margin-bottom:10px;}
 .footer p a{color:#fff;}
 .footbtm figure{max-width:200px; text-align:center; margin:35px auto;}
-.footbtm p{font-size:14px; color:#fff; margin:8px 0; font-weight:100;}
+.footbtm p{font-size:14px !important; color:#fff; margin:8px 0; font-weight:100;}
 .footbtm p a{color:#fff;}
 .footbtm p a:hover{text-decoration:underline;}
 .footbtm p img{width:18.62px;}
