@@ -84,6 +84,9 @@
   #clientscroll li{margin: 0; margin-top: 10px;}
   .creativecol{border-left: 10px solid #f7f5ff; border-top: 10px solid #f7f5ff;}
   .topblocktxt h3 {line-height: 24px;}
+  #whyinfluence h3{font-size: 22px;}
+  #scholor .darkimg p{font-size: 12px !important;
+    line-height: 12px !important;}
 }
 
 
