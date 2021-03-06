@@ -90,6 +90,10 @@
     .banner-download form input[type="submit"]{font-size: 13px; padding: 0 13px;}
     .topblockimg img{align-items: center; margin-left: -24px;}
     #hero .bannerbtn a{font-size: 12px !important;}
+    .panel-default > .panel-heading a {font-size:18px;}
+    .pinkbar .newbtn{font-size: 11px;}
+    .customerservicesection h4{font-size: 20px;}
+    .inspiresection h2{font-size: 20px !important;}
 }
 
 
