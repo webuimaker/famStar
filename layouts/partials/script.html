@@ -11,7 +11,23 @@
     crossorigin="anonymous"></script>
 <!-- Sticky Navbar -->
 <script src='{{ "js/bsnav.min.js" | absURL }}'></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(".newbtn").click(function(){
+    
+    if ($(this).data("closedAll")) {
+        $(".howitworkssection .collapse").collapse("show");
+    }
+    else {
+        $(".howitworkssection .collapse").collapse("hide");
+    }
+    
+    // save last state
+    $(this).data("closedAll",!$(this).data("closedAll")); 
+});
+
+// init with all closed
+$(".newbtn").data("closedAll",true);
+	</script>
 <!-- Owl Carousel -->
 <script src="owlcarousel/owl.carousel.js"></script>
 <script>

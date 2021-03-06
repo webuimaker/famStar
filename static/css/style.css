@@ -441,6 +441,50 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 .tabsection .tabrow p{font-size:14px; color:#7c778a;}
 .tabsection figure{max-width:70px;}
 
+.howitworkssection .panel-group h3{margin-bottom:20px;}
+.howitworkssection .panel-group .panel.panel-default .panel-heading{background:none; padding:8px 0;}
+.howitworkssection .panel-default > .panel-heading a[aria-expanded="true"]{background:none;}
+.howitworkssection .panel.panel-default{border-top:1px solid #c0bdca;}
+.pinkbar .newbtn{float:right; font-size:14px; padding-top:15px; color:#2c2b30; text-transform:none;}
+.howitworkssection .expandtop{float:right; font-size:16px; text-transform:none; text-align:right; margin-top:-40px;}
+.tabsection{margin-top:25px;}
+.tabsection .tabrow{border-top:1px solid #c0bdca; padding:20px 0;}
+.bdrbtm{border-bottom:1px solid #c0bdca;}
+.panel-default > .panel-heading a{font-size:24px; color:#2c2b30; font-weight:700; cursor:pointer; display:block;}
+.howitworkssection .tabrow h4{font-size:24px; color:#2c2b30; font-weight:700;}
+.howitworkssection .tabrow h5{font-size:18px; color:#2c2b30; font-weight:700;}
+.howitworkssection .tabrow p{font-size:14px; color:#7c778a;}
+.tabrow figure img{max-width:70px;}
+.howitworkssection .panel-body{padding-bottom:25px;}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
 .campaignsection{padding:50px 0;}
 .campaignsection figure{max-width:70px;}
 .campaignsection .w-100{margin-bottom:20px;}
