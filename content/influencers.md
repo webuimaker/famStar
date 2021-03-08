@@ -1,5 +1,5 @@
 ---
-title: "Influences"
+title: "Influencers"
 description : "Our products"
 keywords:
 - best influencer marketing platform, 

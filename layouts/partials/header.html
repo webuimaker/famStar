@@ -16,8 +16,9 @@
           </li> -->
           {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
+                    {{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
                     {{ if .HasChildren }}
-                    <li class="nav-item dropdown product-dropdown">
+                    <li class="nav-item dropdown product-dropdown {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
                         <a class="nav-link dropdown-toggle"  href="{{ .URL | absURL }}" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             {{ .Name }}
@@ -33,19 +34,19 @@
                     {{ else }}
 
                         {{if eq .Name "Language"  }}                                       
-                            <li class="nav-item">
+                            <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
                                 <a class="nav-link" href="{{ .URL | absURL }}"><img src='{{ "/images/indiaflag.png" | absURL}}' alt=""></a>
                             </li>
 
                             {{else if eq .Name "login" }}
-                                <li class="nav-item loginlast">
+                                <li class="nav-item loginlast {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
                                     <a class="nav-link d-inline-block" href="{{ .URL | absURL }}">{{ .Name }}</a>
                                 </li>
 
                             {{else}}
 
                                 
-                                <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+                                <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }} {{ if $active }}active{{ end }}">
                                     <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
                                 </li>
 

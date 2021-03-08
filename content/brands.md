@@ -1,5 +1,5 @@
 ---
-title: "Brand"
+title: "Brands"
 description : "Our products"
 keywords:
 - best influencer marketing platform, 

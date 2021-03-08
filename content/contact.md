@@ -1,5 +1,5 @@
 ---
-title: "contact"
+title: "Contact"
 description : "contact us"
 keywords:
 - best influencer marketing platform, 

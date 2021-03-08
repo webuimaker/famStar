@@ -8,36 +8,43 @@ title = "best influencer marketing platform india"
   
   [[menu.main]]
   name = "Home"
+  identifier = "home"
   URL = "/"
   weight = 1
 
   [[menu.main]]
   name = "Brands"
+  identifier = "brands"
   URL = "/brands/"
   weight = 2
 
   [[menu.main]]
   name = "Influencers"
+  identifier = "influencers"
   URL = "/influencers/"
   weight = 3
 
     [[menu.main]]
   name = "About"
+  identifier = "about"
   URL = "/about/"
   weight = 4
 
   [[menu.main]]
   name = "Contact"
+  identifier = "contact"
   URL = "/contact/"
   weight = 5
 
   [[menu.main]]
   name = "Language"
+  identifier = "language"
   URL = ""
   weight = 6
 
   [[menu.main]]
   name = "login"
+  identifier = "login"
   URL = ""
   weight = 7
   
