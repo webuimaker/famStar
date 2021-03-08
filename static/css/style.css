@@ -27,7 +27,7 @@ ul { list-style: none; }
 .abs { position: absolute; }
 .txt-center { text-align: center; }
 .mTop25 { margin-top: 25px; }
-h3{font-size:40px; font-weight:600; text-transform:uppercase;}
+h3{font-size:34px; font-weight:600; text-transform:uppercase;}
 h2{font-size: 34px !important; line-height: 46px !important;}
 h5{
   font-size: 20px;
@@ -293,7 +293,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 #toolsection .toolscol h4{font-size:18px; font-weight:700; color:#261465;}
 #toolsection .toolscol p{font-size:15px; font-weight:100;}
 #toolsection .toolscol img{height:100%}
-#toolsection .rightcolcontent{padding:60px 20px 60px 0;}
+#toolsection .rightcolcontent{padding:14px 20px 25px 0px;}
 #toolsection .rightcolcontent .getmore a{font-size:14px; padding:6px 15px;}
 
 #faqsection{padding:50px 0;}
@@ -450,7 +450,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 .tabsection{margin-top:25px;}
 .tabsection .tabrow{border-top:1px solid #c0bdca; padding:20px 0;}
 .bdrbtm{border-bottom:1px solid #c0bdca;}
-.panel-default > .panel-heading a{font-size:24px; color:#2c2b30; font-weight:700; cursor:pointer; display:block;}
+.panel-default > .panel-heading a{font-size: 18px; color: #2c2b30; font-weight: 700; cursor:pointer; display:block;}
 .howitworkssection .tabrow h4{font-size:24px; color:#2c2b30; font-weight:700;}
 .howitworkssection .tabrow h5{font-size:18px; color:#2c2b30; font-weight:700;}
 .howitworkssection .tabrow p{font-size:14px; color:#7c778a;}
@@ -493,7 +493,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 
 .customerservicesection{padding:50px 0; background:#2c2b30;}
 .customerservicesection h1{color:#fff; text-transform:uppercase; font-size: 34px;}
-.customerservicesection h4{font-size:24px; color:#fff; font-weight:700; margin:15px 0;}
+.customerservicesection h4{font-size:24px; color:#fff; font-weight:500; margin:15px 0;}
 .customerservicesection p{font-size:14px; color:#fff;}
 .inspiresection{background:#f1ecff; padding:30px 0;}
 .inspiresection h4{position:relative; color:#57419d; font-size: 24px; font-weight: 400;}
@@ -534,10 +534,11 @@ display: inline-block; margin:0 15px 5px 0;}
 .aboutinfo h5{font-size:18px; color:#2c2b30; font-weight:700;}
 .aboutinfo p{font-size:14px; color:#7c778a;}
 .aboutpage h5{font-size:20px; color:#57419d;}
+.aboutpage figure img{width: 70%;}
 .purpletxt{color:#261465;}
 .teambox{border-radius:6px; padding:25px 15px; text-align:center;}
 .teambox figure img{border-radius:100%; width:120px; height:120px;}
-.teambox h3{color:#2c2b30; font-size:24px;}
+.teambox h3{color:#2c2b30; font-size:22px;}
 .teambox p{margin-bottom:8px;}
 .teambox a{color:#57419d;}
 .bg1{background:#e3ceff;}
