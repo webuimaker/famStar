@@ -10,7 +10,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 <!-- Sticky Navbar -->
-<script src='{{ "js/bsnav.min.js" | absURL }}'></script>
+<script src='{{ "/js/bsnav.min.js" | absURL }}'></script>
 <script>
 	$(".newbtn").click(function(){
     
@@ -29,7 +29,7 @@
 $(".newbtn").data("closedAll",true);
 	</script>
 <!-- Owl Carousel -->
-<script src="owlcarousel/owl.carousel.js"></script>
+<script  src='{{ "/owlcarousel/owl.carousel.js" | absURL }}' ></script>
 <script>
     $(document).ready(function () {
         $('.owl-carousel').owlCarousel({
