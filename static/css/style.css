@@ -589,3 +589,27 @@ transform: rotate(12deg); box-shadow:inset 0 0 8px rgba(0, 0, 0, 0.3);}
 .boxsection .shadowbox:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,.2); -moz-box-shadow:0 8px 16px 0 rgba(0,0,0,.2); -webkit-box-shadow:0 8px 16px 0 rgba(0,0,0,.2);}
 .shadowbox h5{font-size:18px; color:#2c2b30; font-weight:700;}
 .shadowbox p{font-size:14px; color:#7c778a;}
+
+
+/* tabs */
+.nav-tabs .nav-link{
+   color: #2C2B30 !important;
+   font-size: 17px;
+
+}
+
+.nav-tabs .nav-link:hover{
+  border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  border-bottom: 2px solid #FF8F99 !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: 600;
+}
+
+.nav-tabs{
+  border-bottom: none;
+}
