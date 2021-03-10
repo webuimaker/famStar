@@ -595,21 +595,22 @@ transform: rotate(12deg); box-shadow:inset 0 0 8px rgba(0, 0, 0, 0.3);}
 .nav-tabs .nav-link{
    color: #2C2B30 !important;
    font-size: 17px;
+   border: 0px;
 
 }
 
 .nav-tabs .nav-link:hover{
   border: 1px solid transparent;
+  border: 0px;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
   border-bottom: 3px solid #FF8F99 !important;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border: 0px;
   font-weight: 600;
 }
 
 .nav-tabs{
   border-bottom: none;
+  height: 40px;
 }
