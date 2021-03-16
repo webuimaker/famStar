@@ -163,6 +163,7 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 
 .topblockdesc img{max-width: 70px;}
 .topblockimg img{margin-left: -140px; max-width: 134%;}
+.topblockimg1 img{ max-width: 100%;}
 .topblockdesc .w-100{margin-bottom:20px;}
 
 .rowitems{display: flex; flex-direction: row; margin-top: 50px;}
