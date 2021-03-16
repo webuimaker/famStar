@@ -90,7 +90,7 @@
     .banner-download form input[type="submit"]{font-size: 13px; padding: 0 13px;}
     .topblockimg img{align-items: center; margin-left: -24px;}
     #hero .bannerbtn a{font-size: 12px !important;}
-    .panel-default > .panel-heading a {font-size:18px;}
+    .panel-default > .panel-heading a {font-size:22px;}
     .pinkbar .newbtn{font-size: 11px;}
     .customerservicesection h4{font-size: 20px;}
     .inspiresection h2{font-size: 20px !important;}
@@ -101,6 +101,9 @@
     .aboutpage h2{font-size: 22px !important;}
     .navbar-brand img{max-width: 130px;}
     .influencers-hero li img{  max-width: 60px;}
+    .mobhide{display: none;}
+    .innercontentarea h2{font-size: 22px !important; line-height: 25px !important; font-weight: 600 !important; margin-top: 25px;}
+    .innercontentarea h3{font-size: 21px !important; font-weight: 500 !important;}
 }
 
 
