@@ -527,7 +527,7 @@ display: inline-block; margin:0 15px 5px 0;}
 .innertopcontainer{background:#f1ecff; padding:40px 15px;}
 .innercontentarea{padding:0px 15px 25px;}
 .innercontentarea h3{text-transform:none; color:#2c2b30; font-size:28px;}
-.innercontentarea p{color:#7c778a; line-height:1.4; margin-bottom:15px;}
+.innercontentarea p{color:#7c778a; line-height:1.4; margin-bottom:15px; word-wrap: break-word;}
 .aboutpage{text-align:center; padding-top:160px;}
 .aboutpage h2{font-family: 'Poppins', sans-serif; font-size:50px; color:#2c2b30; font-weight:600; text-transform:uppercase;}
 .aboutpage p{font-size:18px; color:#2c2b30; line-height:1.5;}
@@ -536,7 +536,8 @@ display: inline-block; margin:0 15px 5px 0;}
 .aboutinfo h5{font-size:18px; color:#2c2b30; font-weight:700;}
 .aboutinfo p{font-size:14px; color:#7c778a;}
 .aboutpage h5{font-size:20px; color:#57419d;}
-.aboutpage figure img{width: 70%;}
+.aboutpage .topfigure img{width: 70%;}
+.aboutpage figure img{width: 70px;}
 .purpletxt{color:#261465;}
 .teambox{border-radius:6px; padding:25px 15px; text-align:center;}
 .teambox figure img{border-radius:100%; width:120px; height:120px;}
