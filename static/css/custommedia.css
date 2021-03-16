@@ -99,6 +99,7 @@
     #toolsection .toolscol figure::after{content: none;}
     #hero{padding-bottom: 0;}
     .aboutpage h2{font-size: 22px !important;}
+    .navbar-brand img{max-width: 130px;}
 }
 
 
