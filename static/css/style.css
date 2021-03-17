@@ -149,12 +149,10 @@ display: inline-block; margin:0 15px 5px 0;}
 #clientscroll li{display:inline-block; margin-left: 100px;}
 #clientscroll li:first-child{ margin-left: 0px;} */
 #clientscroll img{max-width: 60px;}
+#clientscroll h2{font-weight: 600; text-align:center; padding: 20px;}
 
 /* client scrol slick slider */
-h2{
-  text-align:center;
-  padding: 20px;
-}
+
 /* Slider */
 
 .slick-slide {
@@ -524,7 +522,6 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 .social::after{content: ''; width:425px; height: 2px; background: #fff; display: inline-block; margin:0 15px 5px 0;}
 
 .footer h2{font-size:22px !important; color:#fff; font-weight:600; margin-bottom:15px;}
-.footer h2{padding: 0;}
 .footer ul{margin:0; padding:0;}
 .footer ul li{margin-bottom:8px;}
 .footer ul li a{color:#fff; font-size:100; font-size:16px;}
