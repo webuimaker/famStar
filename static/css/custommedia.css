@@ -6,7 +6,7 @@
 .mainbanner, .influencebanner{background-size:50%;}
 #hero h4{font-size:18px;}
 #hero h1{font-size:30px;}
-#clientscroll li{padding:0px 5px;}
+.slickslide h2{color: #2C2B30; font-size:22px !important;}
 .social::before{width:125px;}
 .social::after{width:125px;}
 }
@@ -104,6 +104,8 @@
     .mobhide{display: none;}
     .innercontentarea h2{font-size: 22px !important; line-height: 25px !important; font-weight: 600 !important; margin-top: 25px;}
     .innercontentarea h3{font-size: 21px !important; font-weight: 500 !important;}
+    .footer h2{padding: 0;}
+    #clientscroll h2{font-size: 22px !important; font-weight: 600 !important;}
 }
 
 
