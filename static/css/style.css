@@ -373,7 +373,7 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 
 .getspan{color: #ff8f99 !important;}
 .getimg{position: relative;}
-.getimg-txt{position: absolute; top:37%; right:-16%; left:-9%;}
+.getimg-txt{position: absolute; top:37%;  left:-14%;}
 .getimg-txt p{color: #ff8f99;}
 
 #scholor{background: #2c2b30;}
