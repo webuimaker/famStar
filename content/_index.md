@@ -12,9 +12,9 @@ hero:
  bgImage: 
  image:
  tagLine: "Best Influencer Marketing Platform | India"
- title: "Influencer Marketing Powered <br> By Technology, &amp; Driven <br> By Creativity"
+ title: "Influencer Marketing - Powered <br> By Technology, &amp; Driven <br> By Creativity"
  subTitle: "Think Influence. <span>Think Famstar.</span> Get Started Today"
- btnText: "Get Started"
+ btnText: "Create Now"
  btnUrl: "#"
  follow: 
   images:
@@ -26,24 +26,24 @@ hero:
   text: "50K + Creators"
 whySection:
  tagline: Why Choose Us
- title: WHY YOU'LL ADORE US
- description: "We encountered how difficult influencer marketing can be without the right tools. So, we created Famstar to take care of this problem. And now, we are leading the way for the creators and brands alike."
+ title: Why Famstar?
+ description: "Waste no more time in reaching out to potential customers. Connect directly with them through a network of influencers via Famstar."
  lists:
  - title: "Discover"
-   subTitle: "Find best influencers for your brand"
-   info: "Explore our broad network of influencers and select the ones you need. Maximize the influence of creators over their followers. Influencer discovery will help you in finding the perfect match by using various filters and keywords based on your preferred criteria of selection like age, location, city, category of influencer, and much more."
+   subTitle: "People no longer just buy goods and services. They buy stories, experiences, and magic"
+   info: "Find the best influencers who bring people closer to your brand. Explore our broad network of highly connected individuals and choose the ones you need. Influencer discovery helps you to find the perfect match by using filters and keywords based on your preferred criteria of selection, like age, location, city, category of influencer, and much more."
    image: "images/img1.png"
    btnText: Know More 
    btnUrl: "#"
  - title: "Organize"
-   subTitle: "Create your campaign as per your requirements"
-   info: "Get everything you need to manage influencer relationships, contact information, campaign bids, and campaign data. Use our built-in automation to ensure time & money efficiency."
+   subTitle: "There are exceptional ways out there to take your brand to the next level. All you have to do is find people who can do it for you."
+   info: "You can now create campaigns that bring tangible results. Get everything you need to manage influencer relationships, contact information, campaign bids, and data. Use our built-in automation feature to ensure favourable responses and better ROI."
    image: "images/img2.png"
    btnText: Know More 
    btnUrl: "#"
  - title: "Calculate"
-   subTitle: "Intuitive Analytics for getting the job done"
-   info: "With the help of powerful analytics, measure everything from reach, views, social value, conversion to ROI. We have everything to measure the core of your marketing efforts."
+   subTitle: "Influencers are selling like hot cakes. They’re creating huge returns for the brands, and they’re only set to keep growing."
+   info: "Get intuitive analytics of every job done right. With the help of powerful systematic computational analysis, measure everything from reach, views, social value, and conversion to ROI. The platform uses multiple ways to measure the impact of your marketing efforts."
    image: "images/img3.png"
    btnText: Know More 
    btnUrl: "#"
