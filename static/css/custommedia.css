@@ -32,7 +32,7 @@
   #hero{
     padding-left: 0px;
   }
-  #hero h1{font-size:19px; padding-top: 20px;}
+  #hero h1{font-size:19px; padding-top: 46px;}
   #hero h4{font-size:19px; line-height: 1.7rem;}
   #hero h3 {font-size:18px;}
   .bannerleft{margin-top:300px;}
@@ -77,8 +77,8 @@
   .creativecol{margin-top: 15px;}
   .footer h2 {font-size: 24px !important;color: #fff;font-weight: 600;margin-top: 12px;margin-bottom: 0;}
   .imagetext p{font-size: 12px !important; line-height: 13px !important;}
-  .imagetext h1{font-size: 24px;margin-bottom: 0;}
-  #bottombg .imagetext{top: 40%;}
+  .imagetext h1{font-size: 40px; margin-bottom: 0;}
+  #bottombg .imagetext{top: 34%;}
   .client-logo{display: flex; flex-wrap: wrap;}
   .client-logo li{flex: 50%; width: 50%;}
   #clientscroll li{margin: 0; margin-top: 10px;}
@@ -106,6 +106,7 @@
     .innercontentarea h3{font-size: 21px !important; font-weight: 500 !important;}
     .footer h2{padding: 0;}
     #clientscroll h2{font-size: 22px !important; font-weight: 600 !important;}
+    .image-p{font-size: 14px !important; line-height: 18px !important;}
 }
 
 

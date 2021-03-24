@@ -403,10 +403,10 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 #bottombg .bottomcontent .getmore a{color:#fff; border:1px solid #fff; padding:6px 15px; border-radius: 4px; background: transparent;}
 #bottombg .bottomcontent .getmore a:hover{background:#fff; color:#ff8f99 !important; border: 1px solid #fff;}
 #bottombg img{position: relative;}
-#bottombg .imagetext{position: absolute; top: 40%; left: 33%;}
+#bottombg .imagetext{position: absolute; top: 30%; left: 37%;}
 #bottombg .getmore{margin-top: 20px;}
-.imagetext h1{font-size: 45px; font-weight: 600; color: #261465;}
-.imagetext p{font-size: 14px; line-height: 30px; width: 65%;}
+.imagetext h1{font-size: 78px; font-weight: 600; color: #261465;}
+.image-p{position: absolute; top: 86%; left: 12%; width: 65%; color: #FDBF42; font-weight: 500 !important;}
 
 #toolsection{background:#ffd6e7; padding:50px 0;}
 #toolsection .toolscol{background:#f1ecff; border-radius:6px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
