@@ -649,6 +649,7 @@ display: inline-block; margin:0 15px 5px 0;}
 
 /* mod */
 .btnfloat{position: absolute; bottom: -53px;}
+.clrmod{color: #7c778a !important;}
 
 .innerpage{padding-top:110px; margin-bottom:30px;}
 .innertopcontainer{background:#f1ecff; padding:40px 15px;}
