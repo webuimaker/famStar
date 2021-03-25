@@ -615,7 +615,7 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 .campaignsection h5{font-size:18px; color:#2c2b30; font-weight:700;}
 .campaignsection p{font-size:14px; color:#7c778a;}
 
-.customerservicesection{padding:50px 0; background:#2c2b30;}
+.customerservicesection{padding:50px 0; background:#2c2b30; padding-bottom: 100px;}
 .customerservicesection h1{color:#fff; text-transform:uppercase; font-size: 34px;}
 .customerservicesection h4{font-size:24px; color:#fff; font-weight:500; margin:15px 0;}
 .customerservicesection p{font-size:14px; color:#fff;}
@@ -646,6 +646,9 @@ display: inline-block; margin:0 15px 5px 0;}
 #influencertop p{font-size:18px; color:#7c778a; line-height:1.5;}
 #influencertop figure{margin-top:25px;}
 
+
+/* mod */
+.btnfloat{position: absolute; bottom: -53px;}
 
 .innerpage{padding-top:110px; margin-bottom:30px;}
 .innertopcontainer{background:#f1ecff; padding:40px 15px;}

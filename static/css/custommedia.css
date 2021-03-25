@@ -64,6 +64,7 @@
   .banner-download{width:100%;}
   #hero.influencebanner h2{font-size:20px !important; line-height: 21px !important;}
   #influencertop h3{font-size:20px;}
+  .customerservicesection{padding-bottom: 50px;}
   .customerservicesection h1, .inspiresection h2{font-size:19px;}
   .customerservicesection{text-align:center;}
   .customerservicesection .get-arrow{margin-bottom:20px; margin-top: 12px;}
@@ -108,6 +109,7 @@
     #clientscroll h2{font-size: 22px !important; font-weight: 600 !important;}
     .image-p{font-size: 14px !important; line-height: 18px !important;}
     .dbba{padding-bottom: 150px;}
+    .btnfloat{position: static; bottom: -53px;}
 }
 
 
