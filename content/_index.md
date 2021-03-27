@@ -12,8 +12,8 @@ hero:
  bgImage: 
  image:
  tagLine: "Best Influencer Marketing Platform | India"
- title: "Influencer Marketing - Powered <br> By Technology, &amp; Driven <br> By Creativity"
- subTitle: "Think Influence. <span>Think Famstar.</span> Get Started Today"
+ title: "Influencer Marketing - <br> Powered By Technology, &amp; <br>  DrivenBy Creativity"
+ subTitle: "Develop a unique identity for your brand <br> with personalized influencer campaign"
  btnText: "Create Now"
  btnUrl: "#"
  follow: 
