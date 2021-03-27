@@ -12,7 +12,7 @@ hero:
  bgImage: 
  image:
  tagLine: "Best Influencer Marketing Platform | India"
- title: "Influencer Marketing - <br> Powered By Technology, &amp; <br>  DrivenBy Creativity"
+ title: "Influencer Marketing - <br> Powered By Technology, <br> &amp; DrivenBy Creativity"
  subTitle: "Develop a unique identity for your brand <br> with personalized influencer campaign"
  btnText: "Create Now"
  btnUrl: "#"
