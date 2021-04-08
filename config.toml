@@ -6,10 +6,11 @@ title = "best influencer marketing platform india"
 [menu]
 
   
+
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  URL = "/"
+  name = "Influencers"
+  identifier = "influencers"
+  URL = "/influencers"
   weight = 1
 
   [[menu.main]]
@@ -19,12 +20,12 @@ title = "best influencer marketing platform india"
   weight = 2
 
   [[menu.main]]
-  name = "Influencers"
-  identifier = "influencers"
-  URL = "/influencers"
+  name = "Blog"
+  identifier = "blog"
+  URL = "https://www.famstar.in/blog/"
   weight = 3
 
-    [[menu.main]]
+  [[menu.main]]
   name = "About"
   identifier = "about"
   URL = "/about"
@@ -37,19 +38,30 @@ title = "best influencer marketing platform india"
   weight = 5
 
   [[menu.main]]
-  name = "Language"
-  identifier = "language"
+  name = "Try Now"
+  identifier = "login"
   URL = ""
   weight = 6
 
   [[menu.main]]
-  name = "login"
-  identifier = "login"
+  name = "Language"
+  identifier = "language"
   URL = ""
   weight = 7
   
 [params]
 logo = "images/logo.png"
+
+[[params.apps]]
+title = "googlePlay"
+url = "https://play.google.com/store/apps/details?id=com.famstar.android"
+image= "/images/playstore.png"
+
+[[params.apps]]
+title = "IOSapp"
+url = "#"
+image= "/images/appstore.png"
+
   
   
 
