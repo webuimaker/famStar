@@ -44,7 +44,8 @@ collections:
           - {label: Description, name: 'heroDesc', widget: 'string'}      
           - {label: Image, name: 'heroImage', widget: 'image'}      
           - {label: Button Text, name: 'heroBtnText', widget: 'string'}      
-          - {label: Button Url, name: 'heroBtnUrl', widget: 'string'}          
+          - {label: Button Url, name: 'heroBtnUrl', widget: 'string'} 
+      - { label: 'How many boxes you want to below of Hero', name: 'heroBelwoBoxNumber', widget: 'number', default: 3, min: 2, max: 4 } 
       - label: Hero Below Box
         name: heroBelwoBox
         widget: "list"
@@ -56,7 +57,26 @@ collections:
           - {label: Title, name: 'hBelwoBoxTitle', widget: 'string'}      
           - {label: Description, name: 'hBelwoBoxDesc', widget: 'string'}      
           - {label: Image, name: 'hBelwoBoxImage', widget: 'image'}      
-          - {label: Url, name: 'hBelwoBoxBtnUrl', widget: 'string'}      
+          - {label: Url, name: 'hBelwoBoxBtnUrl', widget: 'string'}  
+      - label: Sections
+        name: sections
+        widget: "list"
+        create: true
+        collapsed: true
+        fields:
+          - {label: Section Title, name: 'title', widget: 'string'}      
+          - {label: Section Sub Title, name: 'subTitle', widget: 'string'}      
+          - {label: Badge Name, name: 'titleBadge', widget: 'string'}      
+          - label: Lists
+            name: 'lists'
+            widget: "list"
+            create: true
+            collapsed: true
+            fields:
+              - {label: Section Heading, name: 'heading', widget: 'string'}
+              - {label: Section Sub Heading, name: 'subHeading', widget: 'string'}
+              - {label: Information, name: 'content', widget: 'markdown'}
+              - {label: image, name: 'image', widget: 'image'}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }  
   - name: 'blog'
