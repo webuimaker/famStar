@@ -1,6 +1,9 @@
 ---
 title: New Page from CMS
-description: Page added from cms
+description: Page added from cms    
+relPermalink: '/new-page-from-cms/'
+Permalink: "/new-page-from-cms" 
+url: "/new-page-from-cms"
 keywords:
   - keyText: Keyword 1
   - keyText: Keyword 2
