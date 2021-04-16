@@ -21,17 +21,15 @@ collections:
     identifier_field: Page
     folder: 'content/allpages'
     create: true
-    slug: '{{slug}}'    
+    slug: '{{title}}'    
     relPermalink: '/{{title}}'
-    url: '{{slug}}'
-    preview_path: '/{{slug}}'
+    preview_path: '/{{title}}'
     editor:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'slug', name: 'slug', slug: '{{slug}}', widget: 'string', required: false  }
-      - { label: 'url', name: 'url', url: '/{{slug}}', widget: 'string', required: false }
+      - { label: 'url', name: 'url',  widget: 'string' }
       - { label: 'relPermalink', name: 'relPermalink', relPermalink: '/{{title}}', widget: 'string', required: false }
       - label: Keywords
         name: keywords
