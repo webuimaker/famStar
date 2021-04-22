@@ -459,9 +459,9 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 #subscribesection{background:#f1ecff; padding:40px 0;}
 #subscribesection .custom-control-inline{margin-right:15px;}
 .custom-control-input:checked ~ .custom-control-label::before{background-color:#261465; border-color:#261465;}
-.footer-newsletter form{background: transparent; padding: 6px 10px; position: relative; border-radius:6px; text-align: left; border: 1px solid #2c2b30;}
-.footer-newsletter form input[type="email"] {background: transparent; border: 0; padding: 4px 8px; width: calc(100% - 100px); outline:none;}
-.footer-newsletter form input[type="submit"] {
+.footer-newsletter {background: transparent; padding: 6px 10px; position: relative; border-radius:6px; text-align: left; border: 1px solid #2c2b30;}
+.footer-newsletter  input[type="email"] {background: transparent; border: 0; padding: 4px 8px; width: calc(100% - 100px); outline:none;}
+.footer-newsletter  input[type="submit"] {
     position: absolute;
     top: 0;
     right: 0;

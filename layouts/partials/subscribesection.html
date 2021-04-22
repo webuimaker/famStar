@@ -4,30 +4,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-md-12 ml-auto mr-auto">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div class="bs-example mx-auto text-center text-md-left">
-                                <form>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" name="customRadio"
-                                            id="customRadio1">
-                                        <label class="custom-control-label" for="customRadio1">I am a Creator</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" name="customRadio"
-                                            id="customRadio2" checked>
-                                        <label class="custom-control-label" for="customRadio2">I am a Brand</label>
-                                    </div>
-                                </form>
-                            </div>
+                        <form action="https://api.famstar.in/subscribe" class="row align-items-center" method="post">
+                            <div class="col-md-6">
+                                <div class="bs-example mx-auto text-center text-md-left">
+                                  
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" class="custom-control-input" name="type"
+                                                id="customRadio1" value="Influencer" checked>
+                                            <label class="custom-control-label" for="customRadio1">I am a Creator</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" class="custom-control-input" name="type"
+                                                id="customRadio2" value="Brand">
+                                            <label class="custom-control-label" for="customRadio2">I am a Brand</label>
+                                        </div>
+                                
+                                </div>
                         </div>
 
                         <div class="col-md-6 footer-newsletter">
-                            <form action="" method="post">
-                                <input type="email" name="email"><input type="submit" value="Subscribe">
-                            </form>
+                            <input type="email" name="email" placeholder="Enter mail"> <input type="submit" value="Subscribe" id="btnSub">
                         </div>
-                    </div>
+                    </form>
+
+
                 </div>
             </div>
         </div>
