@@ -1,8 +1,10 @@
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
@@ -137,25 +139,157 @@ $(document).ready(function(){
 });
 // end
 
-$(function () {
-    $("#btnSub").click(function () {
-        $.ajax({
+
+
+$( "#furmsubs" ).on( "submit", function(e) {
+ 
+ var dataString = $(this).serialize();
+  
+ // alert(dataString); return false;
+
+ $.ajax({
+   type: "POST",
+   url: "https://api.famstar.in/subscribe",
+   data: dataString,
+   success: function () {
+    //  $("#contact_form").html("<div id='message'></div>");
+    //  $("#message")
+    //    .html("<h2>Contact Form Submitted!</h2>")
+    //    .append("<p>We will be in touch soon.</p>")
+    //    .hide()
+    //    .fadeIn(1500, function () {
+    //      $("#message").append(
+    //        "<img id='checkmark' src='images/check.png' />"
+    //      );
+    //    });
+   }
+ });
+
+ e.preventDefault();
+});
+
+
+// $("form").on("submit", function (e) {
+//     var dataString = $(this).serialize();
+     
+//     $.ajax({
+//       type: "POST",
+//       url: "bin/process.php",
+//       data: dataString,
+//       success: function () {
+//         // Display message back to the user here
+//       }
+//     });
+ 
+//     e.preventDefault();
+// });
+
+
+// var settings = {
+//   "url": "https://api.famstar.in/subscribe?type=Influencer&email=abc@gmail.com",
+//   "method": "POST",
+//   "timeout": 0,
+// };
+
+// $.ajax(settings).done(function (response) {
+//   console.log(response);
+// });
+
+
+$( "#furmsubs22" ).on( "submit", function(e) {
+ 
+ var dataString = $(this).serialize();
+  
+ // alert(dataString); return false;
+
+ $.ajax({
+   type: "POST",
+   url: "https://api.famstar.in/subscribe",
+   data: dataString,
+   success: function () {
+       alert("submit success")
+    
+   }
+ });
+
+ e.preventDefault();
+});
+
+
+$("#furmsubs").submit(function(event){
+    
+  console.log("videoUploadFile");
+	event.preventDefault(); //prevent default action 
+	var post_url = "https://api.famstar.in/subscribe"; //get form action url
+	var request_method = $(this).attr("method"); //get form GET/POST method
+	var form_data = $(this).serialize(); //Encode form elements for submission
+	
+	$.ajax({
+		url : post_url,
+		type: request_method,
+		data : form_data
+	}).done(function(response){ 
+        alert("success");
+		$("#server-results").html(response);
+	});
+});
+
+
+$("#sendMessage1").on("click", function() {
+  console.log(videoUploadFile);
+  //alert('clicked submit');
+  //message = $("#contactform").serialize();
+  var name = $("#name").val();
+  var email = $("#email").val();
+
+  var language = $("#example-multiple-optgroups").val();
+  var video = $("#upload_widget_opener").val();
+  // Returns successful data submission message when the entered information is stored in database.
+  //var dataString = 'Name='+ name + '<br>Email='+ email + '<br>Language='+ language + '<br>Video='+ video;
+
+  $.ajax({
+    url: "https://formspree.io/hello@q6a.com.au",
+    method: "POST",
+    data: {'Name': name, 'Email':email, 'Language': language, 'Video':videoUploadFile},
+    dataType: "json",
+    onceoff: "one",
+    cache: false,
+    success: function(result){
+      //alert("success full sent");
+      $(".onceForm").addClass("hide");
+      $(".success-once").addClass("show");
+    }
+  });
+  // alert('Thanks for the email, we\'ll be in touch promptly.');
+  //console.log(onceoff);
+  return false;
+});
+
+$(function() {
+    $("#btnsunscribe").click(function() {
+        alert("you will redirect sdsafs");
+
+        $.ajax({            
             type: "POST",
             url: "https://api.famstar.in/subscribe/GetResponse",
-            data: '{}',
+            data: {},
             contentType: "application/json; charset=utf-8",
-            dataType: "json",
+            dataType : "json",
             success: function (response) {
-               if (response.d == true) {
-                    alert("You will now be redirected.");
-                    window.location = "//www.aspsnippets.com/";
+                if(response.d == true){
+                    alter("you will redirect");
+                    window.location = "www.google.com";
+
                 }
             },
-            failure: function (response) {
+            failure: function(response){
                 alert(response.d);
             }
         });
     });
+
+   
+
 });
 
 
