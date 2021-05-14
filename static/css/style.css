@@ -309,6 +309,7 @@ span.blocktxt1{display:inline-block; background:#cdfce5; border-radius:6px; padd
 .rowitems .gridcontent h2{color:#000; font-size: 35px; line-height: 30px;}
 .rowitems .gridcontent h5{color:#57419d; font-size:20px; line-height: 30px; font-weight:400; }
 .rowitems .gridcontent p{line-height:25px; font-size:16px; font-weight:100;}
+.rowitems .gridcontent ol, .rowitems .gridcontent ul{line-height:25px; font-size:16px; font-weight:100; margin-top: 15px;}
 
 .get-arrow{
   display:inline-block; color:#fff !important; font-size:16px; padding: 0.45em 1.8em; border-radius:6px; font-weight:400; margin:0px 0 0 0; position: relative; border:1px solid #ffffff;

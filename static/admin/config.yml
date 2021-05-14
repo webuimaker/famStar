@@ -47,12 +47,13 @@ collections:
           - {label: Title, name: 'heroTitle', widget: 'string'}      
           - {label: Description, name: 'heroDesc', widget: 'string'}      
           - {label: Image, name: 'heroImage', widget: 'image'}      
-          - {label: Button Text, name: 'heroBtnText', widget: 'string'}      
-          - {label: Button Url, name: 'heroBtnUrl', widget: 'string'} 
+          - {label: Button Text, name: 'heroBtnText', widget: 'string', required: false}      
+          - {label: Button Url, name: 'heroBtnUrl', widget: 'string', required: false} 
       - { label: 'How many boxes you want to below of Hero', name: 'heroBelwoBoxNumber', widget: 'number', default: 3, min: 2, max: 4 } 
       - label: Hero Below Box
         name: heroBelwoBox
         widget: "list"
+        required: false
         create: true
         collapsed: true
         max: 4
@@ -69,7 +70,7 @@ collections:
         collapsed: true
         fields:
           - {label: Section Title, name: 'title', widget: 'string'}      
-          - {label: Section Sub Title, name: 'subTitle', widget: 'string'}      
+          - {label: Section Sub Title, name: 'subTitle', widget: 'string', required: false}      
           - {label: Badge Name, name: 'titleBadge', widget: 'string'}      
           - label: Lists
             name: 'lists'
@@ -78,11 +79,11 @@ collections:
             collapsed: true
             fields:
               - {label: Section Heading, name: 'heading', widget: 'string'}
-              - {label: Section Sub Heading, name: 'subHeading', widget: 'string'}
+              - {label: Section Sub Heading, name: 'subHeading', widget: 'string', required: false}
               - {label: Information, name: 'content', widget: 'markdown'}
               - {label: image, name: 'image', widget: 'image'}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }  
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }  
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'

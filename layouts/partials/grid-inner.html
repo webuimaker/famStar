@@ -12,7 +12,9 @@
                 <div class="col-lg-7 col-md-7 gridcontent">
                     <h2>{{.heading}}</h2>
                     {{with .subHeading}}<h5>{{.}}</h5>{{end}}
-                    <p>{{.content}}</p>
+
+                    {{.content | safeHTML | markdownify}}
+
                     <div class="bannerbtn mt-4"><a href="#" class="btn-arrow transparentbtn">Get More</a></div>
                 </div>
             </div>
