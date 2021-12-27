@@ -25,10 +25,6 @@ heroBelwoBox:
     hBelwoBoxDesc: descf 3
     hBelwoBoxImage: /images/uploads/sitting-girl-2-.png
     hBelwoBoxBtnUrl: "#"
-  - hBelwoBoxTitle: "bix -4 "
-    hBelwoBoxDesc: desc
-    hBelwoBoxImage: /images/uploads/img12.jpg
-    hBelwoBoxBtnUrl: "#"
 sections:
   - title: "Section -1 demo "
     subTitle: "sub sec -1 "
